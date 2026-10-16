@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "level",
+        "style",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are a helpful Assistant.\n       Explain following Topic: {topic}\n       With Difficulty level : {level}\n       Explaination style : {style}\n       \n       Instructions : \n       Explain the topic in selected difficulty level and style. \n       Provide some examples and use cases if necessar. \n       End with at least 3 quiz questions.\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
